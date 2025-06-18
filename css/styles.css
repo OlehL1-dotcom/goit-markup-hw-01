@@ -1,12 +1,18 @@
 .logo-web {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   color: #4D5AE5;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .logo-studio {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   color: #2E2F42;
+  line-height: 1.17;
+  letter-spacing: 0.03;
+  text-transform: uppercase;
 }
 .nav-link{
     font-family: 'Roboto' sans-serif;
@@ -26,6 +32,12 @@
 .address-link:focus{
     color: #404BBF;
 }
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+  margin: 0;
+}
 .hero{
      background-image: url('../images/hero-bg.jpg');
        background-size: cover;
@@ -34,22 +46,35 @@
   text-align: center;
   height: 600px;
   width: 1440px;
+  background-color: #2e2f42;
 }
 .hero-title{
     font-family: 'Roboto' sans-serif;
     font-weight: 700;
-    color: #FFFFFF; 
+    font-size: 56px;
+    color: #FFFFFF;
+    line-height: 1.07;
+    letter-spacing: 0.03em; 
 }
 .hero-button {
+    font-family: 'Roboto' sans-serif;
   font-size: 16px;
   font-weight: 500;
   color: #ffffff;
   background-color: #4d5ae5;
+  cursor: pointer;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 .hero-button:hover,
 .hero-button:focus {
   background-color: #404BBF;
   color: #2e2f42;
+}
+.feautures-section-title{
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 .features-section-item-name{
     font-weight: 500;
@@ -58,8 +83,56 @@
 .features-section-item-text{
     font-weight: 400;
     color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.team{
+    background-color: #F4F4FD;
 }
 .team-title{
     font-weight: 700;
     color: #2E2F42;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.team-list{
+    background-color: #FFFFFF;
+}
+.team-name{
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+.team-role{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.portfolio-main-title{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+.portfolio-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02;
+    color: #2e2f42;
+}
+.portfolio-category{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455 ;
+}
+.footer{
+    background-color: #2e2f42;
 }
